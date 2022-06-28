@@ -73,7 +73,7 @@ def random_hobby(arr):
     decision_prompt()
     return
 def good_w_hobby():
-    print("love it, we are finally done with the choices! would you like to confirm the trip?" )
+    print("love it, we are finally done with the choices! would you like to confirm your trip?" )
     decision_prompt()
     if answer == "yes" or answer == "Yes":
         print("perfect, here is the summary of your generated trip,\nsure you'll have a lot of fun!")
