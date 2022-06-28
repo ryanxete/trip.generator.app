@@ -61,7 +61,7 @@ def random_food(arr):
     decision_prompt()
     return
 def good_w_food():
-    print("good taste, lastly let's get to know your favourite hobby while we're on the vacation.")
+    print("good taste, lastly let's get to know your favourite hobby while we are on the vacation.")
 def again_food():
     print("no problem")
     random_food(food_category)
@@ -69,7 +69,7 @@ def again_food():
 def random_hobby(arr):
     global chosen_fav_hobby
     chosen_fav_hobby = random.choice(arr)
-    print(f"one of our options is {chosen_fav_hobby}, would you like it? ")
+    print(f"one of our options is {chosen_fav_hobby}, would you like this option? ")
     decision_prompt()
     return
 def good_w_hobby():
